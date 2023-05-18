@@ -11,7 +11,7 @@ export class EmpleadoComponent {
   nombre="Juan";
   apellido="Díaz";
   edad=28;
-  empresa="UD";
+  //empresa="UD";
   /*getEdad(){
     return this.edad;
   }*/

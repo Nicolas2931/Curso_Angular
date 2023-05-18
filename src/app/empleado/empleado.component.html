@@ -1,4 +1,7 @@
 <p><b>Nombre:</b>{{nombre}}</p>
 <p>Apellido:{{apellido}}</p>
 <p>Edad:{{edad<18 ? "Menor de edad":"Mayor de edad"}}</p>
-<p>Empresa:{{empresa}}</p>
+<p>Empresa:{{empresa.value}}</p>
+Introduce la empresa:<input type="text" #empresa (keyup)="0">
+<br/>
+<br/>
